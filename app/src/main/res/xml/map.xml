@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dungeon author="Ruslan">
+    <player>
+        <health>15</health>
+        <maxHealth>15</maxHealth>
+        <atk>1</atk>
+        <maxWeight>50</maxWeight>
+        <level>0</level>
+        <experience>0</experience>
+        <currentRoom>0</currentRoom>
+    </player>
+    <room>
+        <east>1</east>
+        <description>Room 1(0)</description>
+        <items>
+            <sword>
+                <name>wooden sword</name>
+                <weight>8</weight>
+                <swordAttack>3</swordAttack>
+            </sword>
+        </items>
+    </room>
+    <room>
+        <east>8</east>
+        <north>2</north>
+        <west>0</west>
+        <south>3</south>
+        <description>Room 2(1)</description>
+        <items>
+            <armor>
+                <name>leath chest</name>
+                <weight>5</weight>
+                <protection>7</protection>
+            </armor>
+            <sword>
+                <name>cooper dagger</name>
+                <weight>7</weight>
+                <swordAttack>4</swordAttack>
+            </sword>
+        </items>
+        <monster>
+            <hp>12</hp>
+            <exp>10</exp>
+            <attack>3</attack>
+        </monster>
+    </room>
+    <room>
+        <south>1</south>
+        <description>Room 3(2)</description>
+        <items>
+            <armor>
+                <name>huge iron chest</name>
+                <weight>30</weight>
+                <protection>20</protection>
+            </armor>
+        </items>
+    </room>
+    <room>
+        <north>1</north>
+        <south>4</south>
+        <description>Room 4(3)</description>
+        <items>
+            <cake>
+                <name>pumpkin pie</name>
+                <weight>2</weight>
+                <heal>7</heal>
+            </cake>
+        </items>
+    </room>
+    <room>
+        <north>3</north>
+        <east>5</east>
+        <description>Room 5(4)</description>
+        <items>
+            <sword>
+                <name>iron sword</name>
+                <weight>12</weight>
+                <swordAttack>7</swordAttack>
+            </sword>
+        </items>
+    </room>
+    <room>
+        <east>6</east>
+        <west>4</west>
+        <description>Room 6(5)</description>
+        <monster>
+            <hp>20</hp>
+            <exp>12</exp>
+            <attack>5</attack>
+        </monster>
+    </room>
+    <room>
+        <north>7</north>
+        <west>5</west>
+        <description>Room 7(6)</description>
+        <items>
+            <armor>
+                <name>gold chest</name>
+                <weight>8</weight>
+                <protection>16</protection>
+            </armor>
+        </items>
+    </room>
+    <room>
+        <north>9</north>
+        <south>6</south>
+        <description>Room 8(7)</description>
+        <monster>
+            <hp>5</hp>
+            <exp>1</exp>
+            <attack>1</attack>
+        </monster>
+    </room>
+    <room>
+        <west>1</west>
+        <east>9</east>
+        <description>Room 9(8)</description>
+        <monster>
+            <hp>40</hp>
+            <exp>20</exp>
+            <attack>8</attack>
+        </monster>
+    </room>
+    <room>
+        <east>10</east>
+        <west>8</west>
+        <south>7</south>
+        <north>11</north>
+        <description>Room 10(9)</description>
+        <items>
+            <armor>
+                <name>steel chest</name>
+                <weight>13</weight>
+                <protection>25</protection>
+            </armor>
+            <cake>
+                <name>cake is a lie</name>
+                <weight>2</weight>
+                <heal>10</heal>
+            </cake>
+            <sword>
+                <name>steel sword</name>
+                <weight>13</weight>
+                <swordAttack>12</swordAttack>
+            </sword>
+        </items>
+    </room>
+    <room>
+        <west>9</west>
+        <description>Room 11(10)</description>
+        <items>
+            <cake>
+                <name>big strawberry donut</name>
+                <weight>5</weight>
+                <heal>20</heal>
+            </cake>
+        </items>
+    </room>
+    <room>
+        <north>12</north>
+        <south>9</south>
+        <description>Room 12(11)</description>
+        <monster>
+            <hp>40</hp>
+            <exp>15</exp>
+            <attack>7</attack>
+        </monster>
+    </room>
+    <room>
+        <east>13</east>
+        <south>11</south>
+        <description>Room 13(12)</description>
+        <items>
+            <armor>
+                <name>obsidian armor</name>
+                <weight>7</weight>
+                <protection>35</protection>
+            </armor>
+        </items>
+    </room>
+    <room>
+        <east>14</east>
+        <west>12</west>
+        <description>Room 14(13)</description>
+        <items>
+            <sword>
+                <name>obsidian sword</name>
+                <weight>8</weight>
+                <swordAttack>17</swordAttack>
+            </sword>
+        </items>
+        <cake>
+            <name>french baguette</name>
+            <weight>2</weight>
+            <heal>20</heal>
+        </cake>
+        <cake>
+            <name>salad</name>
+            <weight>1</weight>
+            <heal>10</heal>
+        </cake>
+    </room>
+    <room>
+        <west>13</west>
+        <east>15</east>
+        <description>Room 15(14)</description>
+        <monster>
+            <hp>55</hp>
+            <exp>20</exp>
+            <attack>20</attack>
+        </monster>
+    </room>
+    <room>
+        <west>14</west>
+        <description>Room 16(15)</description>
+        <items>
+            <cake>
+                <name>cake for winner</name>
+                <weight>1</weight>
+                <heal>100</heal>
+            </cake>
+        </items>
+    </room>
+</dungeon>

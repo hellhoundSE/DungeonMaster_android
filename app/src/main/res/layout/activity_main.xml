@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow android:animateLayoutChanges="false">
+
+        <TextView
+            android:id="@+id/txt_hp"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_attack"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_weight"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_exp"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="TextView" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/textView_currentRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/textview" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room inventory :" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your inventory :" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boss characteristics :" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <TextView
+            android:id="@+id/txt_boss_hp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Room cleaned" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="false">
+
+        <Button
+            android:id="@+id/button_pickup"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="Pickup" />
+
+        <Button
+            android:id="@+id/button_north"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="North" />
+
+        <Button
+            android:id="@+id/button_drop"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="Drop" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+
+        <Button
+            android:id="@+id/button_west"
+            android:layout_width="150dp"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="West" />
+
+        <Button
+            android:id="@+id/button_use"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="use" />
+
+        <Button
+            android:id="@+id/button_east"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="east" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:animateLayoutChanges="true">
+
+        <Button
+            android:id="@+id/button_fight"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="Fight" />
+
+        <Button
+            android:id="@+id/button_south"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="south" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="3"
+            android:text="Save" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="74dp">
+
+    </TableRow>
+
+</TableLayout>
